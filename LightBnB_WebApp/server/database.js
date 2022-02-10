@@ -25,17 +25,6 @@ const getUserWithEmail = function(email) {
 }
 exports.getUserWithEmail = getUserWithEmail;
 
- // let user;
-  // for (const userId in users) {
-  //   user = users[userId];
-  //   if (user.email.toLowerCase() === email.toLowerCase()) {
-  //     break;
-  //   } else {
-  //     user = null;
-  //   }
-  // }
-  // return Promise.resolve(user);
-
 /**
  * Get a single user from the database given their id.
  * @param {string} id The id of the user.
